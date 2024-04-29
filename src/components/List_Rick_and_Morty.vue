@@ -6,12 +6,12 @@ const personagem = defineProps(["name", "id", "image", "location", "gender", "st
     <div class="col-md-3">
         <div class="card p-3 mb-4">
             <img :src=personagem.image>
-            <p class="text-center">{{ personagem.name }}</p>
-            <p class="text-center">{{ personagem.location }}</p>
-            <p class="text-center">{{ personagem.gender }}</p>
-            <p class="text-center">{{ personagem.status }}</p>
-            <p class="text-center">{{ personagem.species }}</p>
-            <p class="text-center">{{ personagem.episode.length }}</p>
+            <p class="text-center"><strong>NAME: </strong> {{ personagem.name }}</p>
+            <p class="text-center"><strong>LOCATION: </strong>{{ personagem.location }}</p>
+            <p class="text-center"><strong>GENDER: </strong>{{ personagem.gender }}</p>
+            <p class="text-center"><strong>STATUS: </strong>{{ personagem.status }}</p>
+            <p class="text-center"><strong>SPECIES: </strong>{{ personagem.species }}</p>
+            <p class="text-center"><strong>EPISODE: </strong>{{ personagem.episode.length }}</p>
         </div>
     </div>
 </template>
