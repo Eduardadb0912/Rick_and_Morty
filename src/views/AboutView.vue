@@ -22,7 +22,7 @@
             <p><b>E-MAIL:</b> delboni.unimar@gmail.com</p>
           </li>
           <li>
-            <P>UNIVERSIDADE: Unimar</P>
+            <P><b>UNIVERSIDADE:</b> Unimar</P>
           </li>
           <li>
             <p><b>CURSO:</b> Análise e Desenvolvimento de Sistems (ADS)</p>
