@@ -3,37 +3,18 @@
     <div class="card card_a">
   <div class="row no-gutters">
     <div class="col-md-4">
-      <img src="../assets/Perfil.jpeg" class="card-img" style="width: 22vh" alt="...">
+      <img src="../assets/Perfil.jpeg" class="card-img" style="width: 28vh" alt="...">
     </div>
     <div class="col-md-8">
       <div class="card_a-body" style="margin-left: 3vh">
        <h5 class="card-title">Maria Eduarda Del Boni Da Silva</h5>
-        <ul style="margin-top:3.5vh;">
-          <li>
-            <p><b>IDADE:</b> 19 anos</p>
-          </li>
-          <li>
-            <p><b>DATA DE NASCIMENTO:</b> 09/12/2004</p> 
-          </li>
-          <li>
-            <P><b>SIGNO:</b> Sagitário</P>
-          </li>
-          <li>
-            <p><b>E-MAIL:</b> delboni.unimar@gmail.com</p>
-          </li>
-          <li>
-            <P><b>UNIVERSIDADE:</b> Unimar</P>
-          </li>
-          <li>
-            <p><b>CURSO:</b> Análise e Desenvolvimento de Sistems (ADS)</p>
-          </li>
-          <li>
-            <p><b>TERMO:</b> 3° Termo C - 3/6</p>
-          </li>
-          <li>
-            <p><b>RA:</b> 1974297</p>
-          </li>
-        </ul>
+       <ul style="margin-top:8.5vh;"></ul>
+       <p> Nasci no dia 09 de Dezembro de 2004 (19 anos), 
+        <br>na cidade de Marilía/SP. 
+        <br> Atualmente estou cursando Análise e Desenvolvimento de Sistemas(ADS) e fazendo estágio na UNIMAR,
+        <br> estou no 3° TERMO - 3/6.</p>
+        <p><b>CONTATO:</b> (14) 9 9860-3187</p>  
+        <p><b>E-MAIL:</b> delboni.unimar@gmail.com</p>
       </div>
     </div>
   </div>
@@ -44,11 +25,11 @@
 
 <style>
 .card_a{
-  width: 750px;
-  height: 450px;
+  width: 680px;
+  height: 350px;
   justify-content: center;
   align-items: center;
-  margin-top: 200px;
+  margin-top: 100px;
   border-radius: 20px;
 }
 
