@@ -1,6 +1,6 @@
 <script setup>
 import { onMounted, reactive, ref } from 'vue';
-import ListRick from '../components/List_Rick_and_Morty.vue';
+import ListRick from '../components/ListRickMorty.vue';
 
 let personagens = reactive(ref())
 
