@@ -1,5 +1,10 @@
 # rick_and_morty
 
+## Prints
+
+<img src="/prints/About.png">
+<img src="/prints/Home.png">
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
