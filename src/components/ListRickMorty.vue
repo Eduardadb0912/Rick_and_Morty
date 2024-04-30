@@ -4,7 +4,7 @@ const personagem = defineProps(["name", "id", "image", "location", "gender", "st
 
 <template> 
     <div class="col-md-3 d-flex">
-        <div class="card p-3 mb-4">
+            <div class="card p-3 mb-4">
             <img :src=personagem.image>
             <p class="text-center"><strong>NAME: </strong> {{ personagem.name }}</p>
             <p class="text-center"><strong>LOCAL: </strong>{{ personagem.location }}</p>
@@ -17,10 +17,20 @@ const personagem = defineProps(["name", "id", "image", "location", "gender", "st
 </template>
 
 <style>
-body{
-    background-color: rgb(169, 211, 233);
+
+body {
+    background: linear-gradient(to bottom, #6be0e9, #f7fa3f);
 }
+
 .col-md-3 {
-    background-color: rgb(169, 211, 233);
+    background-color: #ffffff00;
+}
+
+.card{
+    background-color:  rgb(146, 252, 6);
+}
+
+.text-center{
+    color: rgb(43, 150, 20);
 }
 </style>
