@@ -23,7 +23,6 @@ const personagem = defineProps(["name", "id", "image", "location", "gender", "st
 
 .card {
     background-color: rgb(149, 255, 0);
-
 }
 
 .text-center {
