@@ -18,8 +18,8 @@ const personagem = defineProps(["name", "id", "image", "location", "gender", "st
 
 <style>
 
-body.pagina-b {
-  background: linear-gradient(to bottom, #6be0e9, #d9f344); /* Gradiente de fundo para a página B */
+body {
+  background: linear-gradient(to bottom, #6be0e9, #d9f344);
 }
 
 .col-md-3 {
