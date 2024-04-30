@@ -16,7 +16,7 @@ const personagem = defineProps(["name", "id", "image", "location", "gender", "st
     </div>
 </template>
 
-<style>
+<style scoped>
 
 body {
     background: linear-gradient(to bottom, #6be0e9, #f7fa3f);
