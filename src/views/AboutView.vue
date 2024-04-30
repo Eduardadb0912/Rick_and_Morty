@@ -1,5 +1,6 @@
 <template>
-  <center>
+
+    <center>
     <div class="card card_a">
   <div class="row no-gutters">
     <div class="col-md-4">
@@ -20,21 +21,24 @@
   </div>
 </div>
 </center>
+
+  
   
 </template>
 
 <style>
+body {
+  background-color: #6be0e9;
+}
+
 .card_a{
   width: 680px;
   height: 350px;
-  background-color: #fff;
+  background-color: #ffffff;
   justify-content: center;
   align-items: center;
   margin-top: 100px;
   border-radius: 20px;
 }
 
-body{
-  background-color: #6be0e9;
-}
 </style>

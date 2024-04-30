@@ -6,7 +6,7 @@ import {ref} from 'vue'
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-body">
     <div class="container-fluid">
-      <router-link class="navbar-brand" to="/">Rick and Morty API</router-link>
+      <router-link class="navbar-brand" to="/">Rick And Morty API</router-link>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>

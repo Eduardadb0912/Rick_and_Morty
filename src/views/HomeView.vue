@@ -12,10 +12,11 @@ onMounted(() => {
     console.log(personagens)
   })
 })
+
 </script>
 
 <template>
-  <main>
+  <main style="background: linear-gradient(to bottom, #6be0e9, #d9f344)">
     <div class="container">
             <div class="card-body mt-4 mb-8 row" style="padding: 0;">
               <ListRick 
@@ -33,3 +34,4 @@ onMounted(() => {
           </div>
   </main>
 </template>
+

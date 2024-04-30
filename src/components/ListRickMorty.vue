@@ -16,18 +16,25 @@ const personagem = defineProps(["name", "id", "image", "location", "gender", "st
     </div>
 </template>
 
-<style scoped>
+<style>
 
-body {
-    background: linear-gradient(to bottom, #6be0e9, #f7fa3f);
+body.pagina-b {
+  background: linear-gradient(to bottom, #6be0e9, #d9f344); /* Gradiente de fundo para a página B */
 }
 
 .col-md-3 {
-    background-color: #ffffff00;
+    background-color: rgba(107, 225, 233, 0);
 }
+/* body{
+    background-color: rgb(169, 211, 233);
+}
+.col-md-3 {
+    background-color: rgb(168, 211, 233);
+} */
 
 .card{
-    background-color:  rgb(146, 252, 6);
+    background-color:  rgb(149, 255, 0);
+    
 }
 
 .text-center{
