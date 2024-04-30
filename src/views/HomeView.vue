@@ -12,16 +12,12 @@ onMounted(() => {
     console.log(personagens)
   })
 })
-
 </script>
 
 <template>
   <main>
     <div class="container">
-      <div class="row mt-4">
-        <div class="col-sm-12 col-md-12">
-          <div class="card">
-            <div class="card-body row" style="padding: 0;">
+            <div class="card-body mt-4 mb-8 row" style="padding: 0;">
               <ListRick 
                 v-for="personagem in personagens" 
                 :key="personagem.id" 
@@ -35,8 +31,5 @@ onMounted(() => {
               />
             </div>
           </div>
-        </div>
-      </div>
-    </div>
   </main>
 </template>
